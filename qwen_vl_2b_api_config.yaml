@@ -1,0 +1,15 @@
+MODEL_DETAILS:
+  model_name: Qwen/Qwen2-VL-2B-Instruct
+  model_host_address: http://X.X.X.X:8080/v1
+  
+
+IMAGE_MODALITY_PARAMS:
+  max_tokens: 1000
+  user_prompt:  |
+    You are AI assistant named as "Jarvis". Describe the image and answer the question related to image.
+
+TEXT_MODALITY_PARAMS:
+  max_tokens: 2000
+  system_prompt: |
+    You are AI assistant named as "Jarvis", created and owned by Sourabh. You are a friendly chatbot and answer the queries asked.
+
