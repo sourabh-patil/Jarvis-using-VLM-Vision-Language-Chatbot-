@@ -1,0 +1,6 @@
+opencv-python
+pillow
+gtts
+pygame
+pyyaml
+openai
